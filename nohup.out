@@ -1,0 +1,47 @@
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+August 15, 2022 - 20:39:02
+Django version 4.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+August 15, 2022 - 20:45:16
+Django version 4.1, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[15/Aug/2022 20:47:21] "GET / HTTP/1.1" 302 0
+[15/Aug/2022 20:47:21] "GET /todos HTTP/1.1" 301 0
+[15/Aug/2022 20:47:21] "GET /todos/ HTTP/1.1" 200 2920
+[15/Aug/2022 20:47:21] "GET /static/css/style.css HTTP/1.1" 404 179
+[15/Aug/2022 20:47:23] "GET /favicon.ico HTTP/1.1" 404 179
+[15/Aug/2022 21:18:42] "GET /todos/ HTTP/1.1" 200 2920
+[15/Aug/2022 21:18:42] "GET /static/css/style.css HTTP/1.1" 404 179
+[15/Aug/2022 21:19:04] "GET /todos/ HTTP/1.1" 200 2920
+[15/Aug/2022 21:19:04] "GET /static/css/style.css HTTP/1.1" 404 179
+[15/Aug/2022 21:19:12] "POST /todos/add/ HTTP/1.1" 302 0
+[15/Aug/2022 21:19:12] "GET /todos/ HTTP/1.1" 200 3497
+[15/Aug/2022 21:19:12] "GET /static/css/style.css HTTP/1.1" 404 179
+[15/Aug/2022 21:19:18] "POST /todos/22/update HTTP/1.1" 302 0
+[15/Aug/2022 21:19:18] "GET /todos/ HTTP/1.1" 200 3534
+[15/Aug/2022 21:19:18] "GET /static/css/style.css HTTP/1.1" 404 179
+[15/Aug/2022 21:19:20] "POST /todos/2/update HTTP/1.1" 302 0
+[15/Aug/2022 21:19:20] "GET /todos/ HTTP/1.1" 200 3571
+[15/Aug/2022 21:19:20] "GET /static/css/style.css HTTP/1.1" 404 179
+[15/Aug/2022 21:19:22] "GET /todos/22/delete HTTP/1.1" 302 0
+[15/Aug/2022 21:19:22] "GET /todos/ HTTP/1.1" 200 2957
+[15/Aug/2022 21:19:22] "GET /static/css/style.css HTTP/1.1" 404 179
